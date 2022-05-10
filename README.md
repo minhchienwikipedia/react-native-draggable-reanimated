@@ -1,7 +1,7 @@
 
-# React Native Sound Manager
+# React Native Draggable Reanimated
 [![npm version](https://badge.fury.io/js/react-native-draggable-reanimated.svg)](https://badge.fury.io/js/react-native-draggable-reanimated) ![](https://img.shields.io/github/issues/minhchienwikipedia/react-native-draggable-reanimated.svg) ![](https://img.shields.io/github/forks/minhchienwikipedia/react-native-draggable-reanimated.svg) ![](https://img.shields.io/github/stars/minhchienwikipedia/react-native-draggable-reanimated.svg) ![](https://img.shields.io/github/license/minhchienwikipedia/react-native-draggable-reanimated.svg)
-#### This package help you easy to control audio with support cache url! 
+#### This package help you easy to drag any view
 
 ---
 This package requires these, please make sure you had installed them:
@@ -23,7 +23,7 @@ This package requires these, please make sure you had installed them:
 
 ## Usage
 ```javascript
-import SoundManager from 'react-native-draggable-reanimated';
+import DraggableView from 'react-native-draggable-reanimated';
 
 <DraggableView
 	initValue={{ x: 100, y: 100 }}
