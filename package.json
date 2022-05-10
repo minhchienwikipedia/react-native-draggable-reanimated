@@ -1,5 +1,5 @@
 {
-  "name": "react-native-draggable-view",
+  "name": "react-native-draggable-reanimated",
   "version": "1.0.0",
   "description": "React Native Draggable View",
   "main": "index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minhchienwikipedia/react-native-draggable-view.git"
+    "url": "git+https://github.com/minhchienwikipedia/react-native-draggable-reanimated.git"
   },
   "keywords": [
     "react-native",
-    "react-native-draggable-view"
+    "react-native-draggable-reanimated"
   ],
   "author": "minhchienwikipedia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/minhchienwikipedia/react-native-draggable-view/issues"
+    "url": "https://github.com/minhchienwikipedia/react-native-draggable-reanimated/issues"
   },
-  "homepage": "https://github.com/minhchienwikipedia/react-native-draggable-view#readme",
+  "homepage": "https://github.com/minhchienwikipedia/react-native-draggable-reanimated#readme",
   "peerDependencies": {
     "react-native-gesture-handler": ">=1.6.1",
     "react-native-reanimated": ">=2.0.0"
