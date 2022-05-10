@@ -8,6 +8,9 @@ This package requires these, please make sure you had installed them:
 - [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
 - [react-native-reanimated V2](https://github.com/software-mansion/react-native-reanimated)
 
+## Demo
+<img src="./demo.gif" data-canonical-src="./demo.gif" width="200" height="600" />
+
 
 ## Getting started
 
