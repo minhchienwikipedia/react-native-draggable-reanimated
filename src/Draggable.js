@@ -20,6 +20,7 @@ const DraggableView = ({
   minWidth = 0,
   initValue = { x: 0, y: 0 },
   onRelease,
+  onStart,
   style,
 }) => {
   const x = useSharedValue(initValue.x || 0);
@@ -27,6 +28,7 @@ const DraggableView = ({
 
   const gestureHandler = useAnimatedGestureHandler({
     onStart: (_, ctx) => {
+      runOnJS(onStart)();
       ctx.startX = x.value;
       ctx.startY = y.value;
     },
@@ -56,7 +58,7 @@ const DraggableView = ({
         x.value = withSpring(maxWidth);
       }
 
-      runOnJS(onRelease)({ endX: ctx.endX, endY: ctx.endY });
+      runOnJS(onRelease)({ x: ctx.endX, y: ctx.endY });
     },
   });
 

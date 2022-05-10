@@ -9,6 +9,7 @@ export interface DraggableViewPropsProps extends AccessibilityProps, ViewProps {
     maxWidth?: Number;
     minWidth?: Number;
     initValue?: InitialValue;
+    onStart?(): void;
     onRelease?(): void;
     /**
      * Render children.
@@ -16,6 +17,4 @@ export interface DraggableViewPropsProps extends AccessibilityProps, ViewProps {
     children?: React.ReactNode;
 }
 
-declare const DraggableView: React.ComponentType<DraggableViewProps> & FastImageStaticProperties;
-
-export default DraggableView;
+export default class DraggableView extends React.Component<DraggableViewProps> {};
