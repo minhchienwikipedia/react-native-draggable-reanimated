@@ -14,15 +14,21 @@ This package requires these, please make sure you had installed them:
 
 ## Getting started
 
-`$ npm install react-native-draggable-reanimated --save`
+```sh
+npm install react-native-draggable-reanimated --save
+```
 
 - OR
 
-`$ yarn add react-native-draggable-reanimated`
+```sh
+yarn add react-native-draggable-reanimated
+```
 
 - All in one
 
-`$ npm install react-native-draggable-reanimated react-native-gesture-handler react-native-reanimated --save && cd ios && pod install`
+```sh
+npm install react-native-draggable-reanimated react-native-gesture-handler react-native-reanimated --save && cd ios && pod install
+```
 
 ## Usage
 ```javascript
