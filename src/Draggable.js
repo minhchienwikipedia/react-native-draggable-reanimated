@@ -19,8 +19,8 @@ const DraggableView = ({
   maxWidth = DEVICE_WIDTH,
   minWidth = 0,
   initValue = { x: 0, y: 0 },
-  onRelease,
-  onStart,
+  onRelease = = ()=>{},
+  onStart = ()=>{},
   style,
 }) => {
   const x = useSharedValue(initValue.x || 0);

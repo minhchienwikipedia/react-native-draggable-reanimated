@@ -1,1 +1,3 @@
-export { default as DraggableView } from "./src/Draggable";
+import DraggableView from "./src/Draggable";
+
+export default DraggableView;

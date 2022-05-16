@@ -3,7 +3,7 @@
     x: number;
     y: number;
 }
-export interface DraggableViewPropsProps extends AccessibilityProps, ViewProps {
+export interface DraggableViewProps extends AccessibilityProps, ViewProps {
     maxHeight?: Number;
     minHeight?: Number;
     maxWidth?: Number;
