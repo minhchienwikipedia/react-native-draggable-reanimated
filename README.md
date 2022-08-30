@@ -3,6 +3,8 @@
 [![npm version](https://badge.fury.io/js/react-native-draggable-reanimated.svg)](https://badge.fury.io/js/react-native-draggable-reanimated) ![](https://img.shields.io/github/issues/minhchienwikipedia/react-native-draggable-reanimated.svg) ![](https://img.shields.io/github/forks/minhchienwikipedia/react-native-draggable-reanimated.svg) ![](https://img.shields.io/github/stars/minhchienwikipedia/react-native-draggable-reanimated.svg) ![](https://img.shields.io/github/license/minhchienwikipedia/react-native-draggable-reanimated.svg)
 #### This package help you easy to drag any view
 
+<br><p><a href="https://www.buymeacoffee.com/minhchien"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="fateh999" /></a></p><br><br><br>
+
 ---
 This package requires these, please make sure you had installed them:
 - [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
