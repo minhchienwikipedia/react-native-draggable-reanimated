@@ -21,6 +21,7 @@ const DraggableView = ({
   initValue = { x: 0, y: 0 },
   onRelease = () => {},
   onStart = () => {},
+  onActive = () => {},
   style,
 }) => {
   const x = useSharedValue(initValue.x || 0);
@@ -39,6 +40,7 @@ const DraggableView = ({
       y.value = endY;
       ctx.endX = endX;
       ctx.endY = endY;
+      runOnJS(onActive)({ x: ctx.endX, y: ctx.endY });
     },
     onEnd: (event, ctx) => {
       if (ctx.endY < minHeight) {
