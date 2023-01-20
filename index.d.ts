@@ -11,6 +11,7 @@ export interface DraggableViewProps extends AccessibilityProps, ViewProps {
     initValue?: InitialValue;
     onStart?(): void;
     onRelease?(): void;
+    onActive?(): void;
     /**
      * Render children.
      */
